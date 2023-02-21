@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nid </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
+</head>
+<body>
+<div class="login-form">
+    <table>
+        <tr>
+            <td>
+                Username:
+            </td>
+            <td>
+                <input type="text" id="uer">
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+                <td>
+                    <input type="password" id="use1">
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id ="submit-btn" onclick="subbtn()">Submit</button>
+                    </td>
+                    
+                </tr>
+   
+
+    </table>
+
+</div>
+
+
+
+
+
+
+
+    <div class="bg">
+    <div class="main" >
+        <table>
+            <tr>
+                <td>
+                    বাংলা নামঃ
+                </td>
+                <td>
+                    <input type="text" id="nameB">
+                </td>
+                <td>
+                    ইরেজী নামঃ
+                </td>
+                <td>
+                    <input type="text" id="nameE">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    পিতার নামঃ
+                </td>
+                <td>
+                    <input type="text" id="fother">
+                </td>
+                <td>
+                    মাতার নামঃ 
+                </td>
+                <td>
+                    <input type="text" id="mother">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    জন্ম তারিখঃ
+                </td>
+                <td>
+                    <input type="text" id="birth" >
+                </td>
+                <td>
+                    এনআইডি নম্বরঃ
+                </td>
+                <td>
+                <input type="number" id="nidNo">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ঠিকানা আগের লাইনঃ
+                </td>
+                <td>
+                    <input type="text" id="place">
+
+                </td>
+                <td>
+                    ঠিকানা পরের লাইনঃ  
+                </td>
+                <td>
+                    <input type="text" id="place1">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    জন্ম স্থানঃ
+                </td>
+                <td>
+                    <input type="text" id="placeB" value="কুড়িগ্রাম">
+                </td>
+                <td>
+                    আজকের সময়ঃ
+                </td>
+                <td>
+                    <input type="text" id="time" value="২০/০২/২০২৩">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    রক্তের গ্রুপঃ
+                </td>
+                <td>
+                    <input type="text" id="blood">
+
+                </td>
+                <td>
+                    পরর্বতেতে যানঃ
+                </td>
+                <td>
+                    <button onclick="mybtn()" id="btn">Next</button>
+                </td>
+            </tr>
+
+        </table>
+
+
+    </div>
+    <div class="secondPage">
+        <table>
+        <tr>
+            <td>
+                ভোটের ছবি তৈরি করুনঃ
+    
+            </td>
+            <td>
+                <a href="https://idp-v2.live.mygov.bd/profile" target="-blank">Picture</a>
+
+            </td>
+                <td>
+                    ছবি সেলেক্ট করুনঃ
+                </td>
+                <td>
+                    <input type="file" class="file-input" >
+                    <button class="choose-img" hidden>choose image</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    বারকোড তৈরি করুনঃ
+                </td>
+                <td>
+                    <a href="https://barcode.tec-it.com/en/PDF417" target="-blank">Barcode</a>
+                </td>
+                <td>
+                    বারকোড দিনঃ
+                </td>
+                <td>
+                    <input type="file" class="file-inputb" >
+                    <button class="choose-imgb" hidden>choose image</button>
+                </td>
+            </tr>
+            <tr>
+               <td>
+                   
+               </td>
+               <textarea id="textarea" rows="23" cols="1" > <pin> Pin number</pin><name>Name</name><DOB>Date of birth</DOB><FP></FP><F>Right Index</F><TYPE>A</TYPE><V>2.0</V><ds>302e0215009510f668cf69dd89b669ebb6c4eee8f62734d06902150084f07712996a236b0f4ac6e3abd8d5e872d35b83</ds> </textarea>
+               </p>
+               <td>
+
+               </td>
+
+               <td>
+                স্বাক্ষর সিলেক্ট করুনঃ
+                
+            </td>
+            <td>
+                <input type="file"  class="file-inputs" >
+                <button class="choose-imgs" hidden>choose image</button>
+            </td>
+
+            </tr>
+            
+            <tr>
+            <td>
+                <button onclick="exitbtn()" class="exitbtn">Exit</button>
+            </td>
+            <td>
+                <button onclick="secondbtn()" class="secondbtn">Submit</button>
+                
+            </td>
+        </tr>
+    </table>
+    </div>
+</div>
+    
+
+
+
+
+
+
+
+
+
+
+    <div class="img" id="my-section">
+    
+    <div id="result">nid no</div>
+    <div id="result2">dat of birth</div>
+    <div id="result3">fother's name</div>
+    <div id="result4">mother's name</div>
+    <div id="result5">Name Enlish</div>
+    <div id="result6">Name Bangala</div>
+    <div id="result7">village firtst lin</div>
+    <div id="result8">village second line</div>
+    <div id="result9">কড়ি্গ্রাম</div>
+    <div id="result10">০২/১৯/২০২৩</div>
+    <div id="result11">A+</div>
+
+       
+        <img src="img/nid.jpg">
+
+
+        <div class="preview-img">
+            <img src="img/pas.jpg">
+        </div>
+
+        <div class="preview-segne">
+            <img src="img/segne.jpg">
+        </div>
+
+        <div class="preview-barcode">
+            <img src="img/barcod.gif">
+        </div>
+   
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

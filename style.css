@@ -1,0 +1,408 @@
+
+body{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;  
+}
+
+
+.login-form{
+   background: linear-gradient(133deg, #4abeb2, #3c57d2);
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.login-form table{
+   padding:20px;
+   border: 2px solid white;
+   padding-bottom: 40px;
+   border-radius: 10px;
+   box-shadow: 2px 6px 5px black;
+
+}
+.login-form table td{
+   padding: 10px;
+   font-size: 20px;
+   color: white;
+}
+.login-form table td input{
+   background: none;
+   border: none;
+   border-bottom: 2px solid white;
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   outline:none;
+   
+}
+
+#submit-btn{
+   position: absolute;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding: 10px;
+   height: 40px;
+   width: 100px;
+   background: none;
+   border: 2px solid white;
+   border-radius: 20px;
+   margin-left: 140px;
+   color: white;
+   cursor: pointer;
+
+
+}
+#submit-btn:hover{
+   background: rgb(25, 69, 214);
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.bg{
+   filter:blure(8px);
+   background: linear-gradient(133deg, #4abeb2, #3c57d2);
+}
+
+.main{
+    height: 100vh;
+   display: none;
+   align-items: center;
+   justify-content: center;
+ 
+  
+  
+
+
+}
+.main table{
+    border: 4px solid rgb(3, 3, 3);
+    padding: 20px;
+    
+    box-shadow: 5px 10px 15px #000000;
+  
+
+}
+.main td{
+    padding: 10px;
+}
+.main td input{
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+
+}
+.main td input:hover{
+    border:5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+   padding: 5px;
+
+}
+
+
+.main #btn{
+        border: 1px solid rgb(0, 0, 0);
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        background: rgb(62, 167, 62);
+        border: 2px solid rgb(0, 0, 0);
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        margin-left: 110px;
+        cursor: pointer;
+      
+}
+.main #btn:hover{
+  
+    background: rgb(48, 110, 245);
+   
+}
+
+
+
+
+
+.secondPage{
+   height: 100vh;
+   display: none;
+   align-items: center;
+   justify-content: center;
+
+}
+.secondPage table{
+   border: 4px solid rgb(3, 3, 3);
+   padding: 20px;
+   box-shadow: 2px 6px 5px black;
+}
+
+.secondPage td{
+   padding: 20px;
+}
+.secondPage td a{
+   text-decoration: none;
+   background: rgb(74, 94, 136);
+   padding: 15px;
+   border-radius: 10px;
+   width: 100px;
+   color: white;
+   font-size: 20px;
+}
+.secondPage td a:hover{
+   background:rgb(54, 66, 245);
+}
+.secondPage td input{
+   background: rgb(74, 94, 136);
+   padding: 10px;
+   border-radius: 10px;
+}
+
+.secondPage td input:hover{
+   background:rgb(54, 66, 245);
+}
+
+.secondbtn {
+   border: 1px solid rgb(0, 0, 0);
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        background: rgb(34, 125, 211);
+        border: 2px solid rgb(0, 0, 0);
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        margin-left: 440px;
+        margin-top: -5px;
+     }
+   .secondbtn:hover{
+      background: green;
+   }
+.exitbtn{
+   border: 1px solid rgb(0, 0, 0);
+   height: 50px;
+   width: 200px;
+   border-radius: 10px;
+   background: rgb(62, 90, 167);
+   border: 4px solid rgb(0, 0, 0);
+   border-bottom-left-radius: 0px;
+   border-bottom-right-radius: 0px;
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+   font-weight: bold;
+   position: absolute;
+   margin-top: -5px;
+   margin-left: -45px;
+}
+.exitbtn:hover{
+   background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img {
+   padding-left: 50px;
+   display: none;
+
+}
+
+.img img{
+    height: 2.3in;
+    width: 6.9in;
+}
+
+
+#result{
+   position: absolute;
+   margin-top: 183px;
+   margin-left: 127px;
+   font-weight: 1000;
+   font-size: 14px;
+   color: red;
+   font-family: Arial, Helvetica, sans-serif;
+   opacity: 0.9
+
+}
+#result2{
+    position: absolute;
+    margin-top: 168px;
+    margin-left: 157px;
+    font-weight: 650;
+    font-size: 13px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ #result3{
+    position: absolute;
+    margin-top: 147px;
+    margin-left: 123px;
+    font-weight: 500;
+    font-size: 11px;
+    color: rgb(0, 0, 0);
+    font-family: 'Kalpurush', sans-serif;
+
+ 
+ }
+ #result4{
+    position: absolute;
+    margin-top: 126px;
+    margin-left: 123px;
+    font-weight: 500;
+    font-size: 11px;
+    color: rgb(0, 0, 0);
+    font-family: 'Kalpurush', sans-serif;
+
+ 
+ }
+ #result5{
+    position: absolute;
+    margin-top: 102px;
+    margin-left: 123px;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-family: Segoe UI ;
+    opacity: 0.9;
+
+ 
+ }
+ #result6{
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 123px;
+    font-weight: 1000;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-family: 'Kalpurush', sans-serif;
+
+    
+ }
+
+ #result7{
+    position: absolute;
+    font-weight: 600;
+    margin-top: 44px;
+    margin-left: 375px;
+    font-size: 9px;
+    color: rgb(32, 32, 32);
+    font-family: 'Kalpurush', sans-serif;
+    opacity: 0.9;
+    
+ }
+
+ 
+
+ #result8{
+    position: absolute;
+    font-weight:600;
+    margin-top: 56px;
+    margin-left: 375px;
+    font-size: 9px;
+    color: rgb(0, 0, 0);
+    font-family: 'Kalpurush', sans-serif;
+    opacity: 0.9;
+    
+ }
+ 
+ #result9{
+    position: absolute;
+    font-weight: 700;
+    margin-top: 99px;
+    margin-left: 502px;
+    font-size: 8px;
+    color: rgb(0, 0, 0);
+    font-family: 'Kalpurush', sans-serif;
+    opacity: 0.9;
+    
+ }
+
+ #result10{
+    position: absolute;
+    font-weight: 700;
+    margin-top: 143px;
+    margin-left: 580px;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Kalpurush', sans-serif;
+    opacity: 0.8;
+    
+ }
+
+ #result11{
+   position: absolute;
+    font-weight: 700;
+    margin-top: 99px;
+    margin-left: 448px;
+    font-size: 11px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ 
+
+.preview-img img{
+ position: absolute;
+ height: 78px;
+ width: 66px;
+ margin-top: -150px;
+ margin-left: 10px;
+
+}
+
+.preview-segne img { 
+   position: absolute;
+   height: 10px;
+   width: 20px;
+   margin-top: -50px;
+   margin-left: 30px;
+
+}
+
+.preview-barcode img { 
+   position: absolute;
+   height: 38px;
+   width: 306px;
+   margin-top: -62px;
+   margin-left: 346px;
+   opacity: 0.9;
+
+}
+
